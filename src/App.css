@@ -1,0 +1,96 @@
+* {
+  font-family: Arial;
+}
+.flex{
+  display: flex;
+  flex-direction: column;
+}
+.container {
+  background-color: #24232b;
+  padding: 24px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  width: 300px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+}
+
+.header {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+  font-weight: 700;
+  padding-bottom: 20px;
+}
+
+button {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  background-color: #f4511e;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 700;
+  cursor: pointer;
+  opacity: 0.6;
+  transition: 0.3s;
+}
+button:hover {
+  opacity: 1;
+}
+
+.copyBtn {
+  height: 30px;
+  font-size: 10px;
+}
+
+.charlength {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
+  padding-bottom: 24px;
+}
+
+.charlength span {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 24px;
+}
+
+.checkboxes {
+  display: grid;
+  grid-template-columns: auto auto;
+  font-size: 16px;
+  font-weight: 700;
+  color: white;
+}
+
+.checkboxes div {
+  display: flex;
+  gap: 5px;
+  padding-bottom: 25px;
+}
+
+.generateBtn {
+  width: 100%;
+  font-size: 20px;
+  padding: 20px;
+}
+
+.errorMessage {
+  color: red;
+  padding-bottom: 5px;
+}
+
+.password-strength {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 12px;
+  color: white;
+}
